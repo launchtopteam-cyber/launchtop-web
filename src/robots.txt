@@ -1,0 +1,35 @@
+# Launch Top™ — robots.txt
+# Permitir todo a buscadores y crawlers de IA (GEO)
+
+User-agent: *
+Allow: /
+
+# Crawlers de IA generativa — acceso explícito
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+Sitemap: https://launchtop.es/sitemap.xml
